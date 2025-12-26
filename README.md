@@ -49,8 +49,8 @@ session.save_to_file("data/sessions/patient_001.json")
 
 C:\Users\FARA\OneDrive\Desktop\medical-gynecology-app\
 │
-├── main.py                                    ← فایل اصلی
-├── transfer_to_pregnancy.py                   ← ⭐ فایل جدید (اینجا)
+├── main.py                                    ← main file
+├── transfer_to_pregnancy.py                   ← ⭐ new file
 ├── requirements.txt
 ├── .env
 │
@@ -59,15 +59,15 @@ C:\Users\FARA\OneDrive\Desktop\medical-gynecology-app\
 │   │
 │   ├── core\
 │   │   ├── __init__.py
-│   │   ├── gynecology_session.py             ← فایل اول شما
-│   │   └── pregnancy_session.py              ← فایل دوم (جدید)
+│   │   ├── gynecology_session.py             ← first file
+│   │   └── pregnancy_session.py              ← second file(new)
 │   │
 │   ├── models\
 │   │   ├── gynecology\
-│   │   │   └── Modelfile                     ← مدل زنان
+│   │   │   └── Modelfile                     ← gynecology model
 │   │   │
 │   │   └── pregnancy\
-│   │       └── Modelfile                     ← مدل بارداری (جدید)
+│   │       └── Modelfile                     ← pregnancy model(new)
 │   │
 │   ├── api\
 │   │   ├── __init__.py
