@@ -21,8 +21,10 @@ AI-powered gynecology consultation system using Ollama and custom Gemma 3 model.
 ```
 
 4. **Install Python dependencies**
+
 ```bash
    pip install -r requirements.txt
+   python -3.13 -m venv gyn
 ```
 
 5. **Run the application**
