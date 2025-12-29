@@ -11,7 +11,7 @@ AI-powered gynecology consultation system using Ollama and custom Gemma 3 model.
 
 2. **Pull base model**
 ```bash
-   ollama pull gemma2:2b
+   ollama pull gemma3:latest and deepseek-r1:1.5b
 ```
 
 3. **Create custom model**
@@ -85,6 +85,6 @@ C:\Users\FARA\OneDrive\Desktop\medical-gynecology-app\
 │
 ├── scripts\
 │   └── setup_model.sh
-│
+── gui.py 
 └── venv\
     └── ...
